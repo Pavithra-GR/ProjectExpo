@@ -1,0 +1,81 @@
+.login-box{
+    position:absolute;
+    top:50%;
+    left:50%;
+    width:400px;
+    padding:40px;
+    transform:translate(-50%,-50%);
+    background:rgba(24,20,20,0.987);
+    box-sizing:border-box;
+    box-shadow:0 15px 25px rgba(0,0,0,0.6);
+    border-radius:10px;
+}
+
+.login-box .user-box{
+    position:relative;
+}
+
+.login-box .user-box input{
+    width:100%;
+    padding:10px 0;
+    font-size:16px;
+    color:#fff;
+    margin-bottom:30px;
+    border:none;
+    border-bottom:1px solid #fff;
+    outline:none;
+    background:transparent;
+}
+
+.login-box .user-box label{
+    position:absolute;
+    top:0;
+    left:0;
+    padding:10px 0;
+    font-size:16px;
+    color:#fff;
+    pointer-events:none;
+    transition:0.5s;
+}
+
+.login.box .user-box input:focus ~ label,
+.login-box .user-box input:valid ~ label{
+    top:-20px;
+    left:0;
+    color:#bdb9b9;
+    font-size:12px;
+}
+
+.login-box form a{
+    background:#03f40f;
+    border-radius:5px;
+    box-shadow:0 0 5px #03f40f,
+               0 0 25px
+}
+
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #e8ebe9;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+   
+    color: white;
+  }

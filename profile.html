@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nat Cosmos</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: rgb(199, 233, 199);
+        }
+        
+        .container {
+            font-size: x-large;
+            max-width: 700px;
+            margin: 50px auto;
+            background-color: rgb(60, 145, 60);
+            background-color: #3e8863;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        
+        .form-group {
+            font-size: x-large;
+            margin-bottom: 20px;
+        }
+        
+        .form-group label {
+            font-size: x-large;
+            display: block;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        
+        .form-group input[type="text"],
+        .form-group input[type="date"],
+        .form-group input[type="number"],
+        .form-group select {
+            font-size: x-large;
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        
+        .form-group select {
+            font-size: x-large;
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        
+        .form-group input[type="file"] {
+            font-size: x-large;
+            width: auto;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        
+        .btn {
+            font-size: x-large;
+            background-color: #007bff;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        
+        .btn:hover {
+            background-color: #0056b3;
+        }
+    </style>
+    </head>
+    <body id="profiles">
+    <h1>Nat Cosmos</h1>
+        <div class="topnav">
+            <a href="navigation.html">Home</a>
+            <a class="active" href="carbon.html">Carbon Tracker</a>
+            <a href="http://127.0.0.1:5000">Transportation</a>
+            <a href="tasks.html">Tasks</a>
+            <a href="badges.html">Badges</a>
+            <a href="about.html">About</a>
+            <a href="register.html">Register </a>
+            <a href="profile.html">Profile</a>
+          </div>
+    <div class="container" id="contai" style="border:white; border-width: 4px;border-style: outset;">
+    <div id="hii">
+        <h1>User Profile Information </h1>
+    
+        <img src="default-avatar.jpg" id="profile"></a>
+        </div>
+        <form>
+            <div class="form-group">
+                <label for="profile-pic">Profile Picture:</label>
+                <input type="file" id="profile-pic" name="profile-pic" accept="image/*">
+            </div>
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" placeholder="Name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="dob">Date of Birth:</label>
+                <input type="date" id="dob"  placeholder="Date of Birth" paname="dob" required>
+            </div>
+            <div class="form-group">
+                <label for="address">Address:</label>
+                <input type="text" id="address"  placeholder="Address" name="address" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="gender">Gender:</label>
+                <select id="gender" name="gender">
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="language">Language:</label>
+                <select id="language" name="language">
+                    <option value="english">English</option>
+                    <option value="spanish">Spanish</option>
+                    <option value="french">French</option>
+                </select>
+            </div>
+            <button type="submit" class="btn">Submit</button>
+        </form>
+    </div>
+
+    </body>
+    </html>

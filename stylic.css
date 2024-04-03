@@ -1,0 +1,37 @@
+#logo{
+    background-color: rgb(189, 242, 189);
+  }
+  .Rewards{
+      width:300px;
+      border:15px solid green;
+      padding:50px;
+      margin:20px;
+  }
+  #logo1{
+      padding: 10px;
+      margin-top: 10px;
+      background-color: darkgreen;
+      color: white;
+      font-size: 2vw;
+      display: grid;
+      grid-template-columns: auto auto auto;
+      row-gap: 20px;
+      column-gap: 20px;
+      align-content: space-evenly;
+  .container {
+    display: grid;
+    grid-template-columns: 250px 250px 250px;
+    gap: 20px;
+  }
+  .product {
+    padding: 10px;
+    border: black solid 2px;
+    border-radius: 10px;
+  }
+  .product-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  }
+  

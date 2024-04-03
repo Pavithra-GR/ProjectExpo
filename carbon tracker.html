@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nat Cosmos</title>
+<link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+        <h1>Nat Comsos</h1>
+        <div class="topnav">
+          <a href="navigation.html">Home</a>
+            <a class="active" href="carbon.html">Carbon Tracker</a>
+            <a href="http://127.0.0.1:5000">Transportation</a>
+            <a href="tasks.html">Tasks</a>
+            <a href="badges.html">Badges</a>
+            <a href="about.html">About</a>
+            <a href="register.html">Register </a>
+            <a href="profile.html">Profile</a>
+          </div>
+<div id="hello"> 
+<!--<h1 >Carbon Footprint Calculator</h1>-->
+<div class="calculator">
+  <h2>Carbon Footprint Calculator</h2>
+  <label for="distance">Distance (km):</label>
+  <input type="number" id="distance" min="0" step="1">
+  <label for="vehicle">Vehicle:</label>
+  <select id="vehicle">
+    <option value="car">Car</option>
+    <option value="bus">Bus</option>
+    <option value="motorcycle">Motorcycle</option>
+    <option value="Train">Train</option>
+    <option value="bicycle">Bicycle</option>
+  </select>
+  <button onclick="calculateCarbonFootprint()" id="calci">Calculate</button>
+  <h3>Your carbon footprint is: <span id="result">0</span> kg CO2</h3>
+    <a href="navigation.html">back</a>
+</div>
+
+</div>
+<script src="scripts.js"></script>
+
+</body>
+</html>

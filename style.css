@@ -1,0 +1,153 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 255, 255);
+    
+}
+
+header {
+    display: flex;
+    background-color: #000000;
+    color: #fff;
+    text-align: right;
+    padding: 1rem 0;
+}
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 1rem;
+}
+
+section {
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid #ccc;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input, button {
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    display: flex ;
+    background-color: #000000;
+    color: #fff;
+    text-align:right;
+    padding: 1rem ;
+}
+#register{
+    font-size: large;
+    padding: 40px;
+}
+#regis{
+    background-image: url("register.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.9;
+}
+#forgetpage{
+    background-image: url("register.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.9;
+}
+#loginpage{
+    background-image: url("register.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.9;
+}
+#logs{
+    font-size: xx-large;
+}
+#white{
+    color:#fff;
+    font-size: x-large;
+}
+#regisfont{
+    font-size: xx-large;
+}
+
+#contai{
+    padding: 50px;
+}
+#mail{
+    font-size: x-large;
+    color: #fff;
+}
+#id{
+    font-size: larger;
+    color: #fff;
+}
+#login{
+    
+    font-size: large;
+    padding: 40px;
+}
+#forget{
+    
+    font-size: x-large;
+    padding: 40px;
+}
+#forgets{
+    font-size: xx-large;
+}
+#map {
+    height: 100px;
+    border: 1px solid #ccc;
+}
+
+
+  
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #e8ebe9;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    
+    color: white;
+  }
+  #navibody{
+    font-size: xx-large;
+  }
+  #profile{
+    width:120px;
+    height:120px;
+    display: flex;
+  }
+  #hii{
+    display: flex;
+  }

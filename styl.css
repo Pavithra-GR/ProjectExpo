@@ -1,0 +1,120 @@
+/* Reset default margin and padding */
+body, h1, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set background color */
+body {
+    background-color: #f4f4f4; /* Light gray background */
+}
+
+/* Container for the content */
+.container {
+    max-width: 800px; /* Set maximum width */
+    margin: 0 auto; /* Center the container */
+    padding: 20px;
+}
+
+/* Header styles */
+header {
+    background-color: #4CAF50; /* Dark green */
+    color: #fff; /* White text */
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2em; /* Large font size */
+}
+
+/* Navigation menu styles */
+nav {
+    background-color: #81c784; /* Light green */
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none; /* Remove bullets */
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block; /* Display items horizontally */
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff; /* White text */
+    text-decoration: none; /* Remove underline */
+    font-weight: bold;
+}
+#aboutbg{
+    background-image: url("aboutbg.jpeg");
+    /*background-repeat: no-repeat;
+    background-size: cover;*/
+    filter: brightness(8px);
+    -webkit-filter: brightness(8px);
+    opacity: 0.9;
+}
+/* Main content styles */
+.about-section, .team-section {
+    background-color: #fff; /* White background */
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.about-section h2, .team-section h2 {
+    color: #4CAF50; /* Dark green */
+    margin-bottom: 10px; /* Add space below heading */
+
+}
+
+.team-member {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2vw;
+}
+
+.team-member img {
+    width: 150px; /* Set width */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 50%; /* Rounded corners */
+    margin-bottom: 10px; /* Add space below image */
+}
+#para{
+    font-size: 2vw;
+}
+
+footer {
+    background-color: #4CAF50; /* Dark green */
+    color: #fff; /* White text */
+    padding: 20px;
+    text-align: center;
+}
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #e8ebe9;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+   
+    color: white;
+  }
